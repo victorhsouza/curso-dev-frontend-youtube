@@ -3,3 +3,5 @@ Proposta de atividade:
 Nesta aula aplicamos os conhecimentos adquiridos criando uma interface simples. Essa é a hora de vc praticar tudo que foi adquirido. Quanto mais praticar, mais experiente voce fica e consequentemente vai criar paginas cada vez mais atrativas. Faça o mesmo exemplo que foi feito e faça tambem outro da pagina deste link. 
 
 https://blog.duda.co/pt-br/exemplos-flexbox#:~:text=%231%20Exemplo%20Flexbox%3A%20Cards%20de,completamente%20um%20item%20ou%20conceito.
+
+Como nao finzalizei 100% esse template, tente continuar a edição. Assista a aula e quando acabar, continue e edição! 
