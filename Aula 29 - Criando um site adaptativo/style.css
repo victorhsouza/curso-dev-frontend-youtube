@@ -1,0 +1,14 @@
+img{
+    width: 50vw;
+    /* height: 30vh; */
+}
+
+p{
+    /* A propriedade max pega qual maior valor */
+    font-size: max(5vw,30px);
+}
+
+h1{
+    /* A propriedade min pega qual menor valor */
+    font-size: min(20px, 3vw);
+}

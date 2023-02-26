@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+    <style>
+        /* Psudo classe nth-child vai chamar a tag especificada no parentesis */
+        .div-1 p:nth-child(2){
+            color: blue;
+        }
+
+        /* Quando chamamos dessa maneira, ele vai editar de 2 em 2 começando do primeiro elemento */
+        .div-1 p:nth-child(2n + 1){
+            color: red;
+        }
+
+        /* Quando passo o even, ele vai chamar as tags pares */
+
+        .div-1 p:nth-child(even){
+            font-size: 50px;
+        }
+
+        /* Quando passo o odd, ele vai chamar as tags impares */
+
+        .div-1 p:nth-child(odd){
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        /* Psudo classe not, vai editar a tag espcificada exceto alguma em especifico */
+        .div-1 p:not(.p){
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+  <div class="div-1">
+    <p>teste</p>
+    <p>teste</p>
+    <p class="p">teste</p>
+    <p class="p">teste</p>
+  </div>
+</body>
+</html>

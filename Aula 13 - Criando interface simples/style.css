@@ -1,0 +1,73 @@
+.container{
+    border: 2px solid red;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #4c35e0;
+}
+
+.titulo{
+    color: 
+    #f1dde7;
+}
+
+
+.precos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    border: 1px solid black;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.card h4{
+    color: #e7bf56;
+    font-size: 20px;
+}
+
+.card h2{
+    color: #4c35e0;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.card span{
+    font-size: 15px;
+}
+
+.card p{
+    line-height: 10px;
+    color: #c2c2c2
+    ;
+}
+
+.card a{
+    font-weight: bolder;
+    color: #6b5ab8;
+    margin-top: 50px;
+
+}
+
+.card .botao{
+    background-color: #4c35e0;
+    color: white;
+    padding: 10px 30px;
+}
+
+.card div{
+    margin-top: 30px;
+}
+
+.cabecalho{
+    line-height: 5px;
+}
+

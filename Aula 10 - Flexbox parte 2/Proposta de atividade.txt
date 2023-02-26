@@ -1,0 +1,3 @@
+Proposta de atividade:
+
+Assista essa aula quantas vezes for necessario para que voce entenda esse conteudo, não só essa aula mas todas as aulas de flexbox. Posso dizer que existe flexbox em TODAS as paginas de um site, talvez em uma ou outra que nao. Principalmente faça os exemplos da aula e veja com seus proprios olhos o que acontece. 

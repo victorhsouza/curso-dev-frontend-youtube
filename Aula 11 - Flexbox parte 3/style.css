@@ -1,0 +1,51 @@
+.box{
+    border: 1px solid black;
+    width: 100px;
+    padding: 10px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box-1{
+    background-color: red;
+}
+
+.box-2{
+    background-color: blue;
+}
+
+.box-3{
+    background-color: green;
+}
+
+/* flex direction - Define o eixo principal */
+
+/* justify content - Alinha os elementos no eixo principal. flex-start, center, flex-end, space-between, space-around e space-evenly */
+
+/* Align items - Alinha os elementos no eixo perpendicular (contrario). flex-start, center e flex-end */
+
+/* flex-wrap - Utilizado quando se deseja que as divs quebrem para a linha de baixo. Podendo ser wrap, nowrap e wrap-reverse */
+
+/* Align content - Alinha os elementos no eixo perpendicular qunando existe uma quebra de linha */
+
+/* gap - Gera um espaçamento entre as divs de um container */
+
+.container{
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 600px;
+    height: 500px;
+    display: flex; 
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: flex-center;
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    align-content: center;
+    /* row-gap: 20px;
+    column-gap: 10px; */
+
+    gap: 20px 10px;
+}

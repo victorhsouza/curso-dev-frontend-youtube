@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filhos</title>
+    <style>
+        /* Seleção por atributo vai selecionar aquela tag com o atributo que for especificado */
+
+        /* Quando se tem um ^ quero as tags que comecem com o que foi especificado */
+        a[href^=wes]{
+            font-size: 50px;
+        }
+
+        /* Quando se tem um $ quero as tags que terminem como que foi especificado */
+
+        a[href$=teste]{
+            font-size: 100px;
+        }
+
+        /* Quando se tem um * quero as tags que tenham no contexto aquela palavra que foi especifcada */
+
+        a[href*=youtube]{
+            font-size: 200px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <a href="http://www.google.com">link</a>
+    <br>
+
+    <a href="wes">link2</a>
+    <br>
+
+    <a href="www.gtg.teste">link 3</a>
+    <br>
+    <a href="tre.uiy6.youtube.hjgfj">link4</a>
+    
+</body>
+</html>
